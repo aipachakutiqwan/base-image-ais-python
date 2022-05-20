@@ -1,7 +1,7 @@
 buildContainer:
   tool:
     docker:
-      file: Docker/Dockerfile
+      file: Docker/Dockerfile.base
       imageTag: 3.10.4
 
 publishArtifact:
