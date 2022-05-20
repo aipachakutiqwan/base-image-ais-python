@@ -1,3 +1,3 @@
-# SERVER-API
+# BASE-IMAGE_AI_SOLUTIONS
 
-This repository implements the watchdog for audit files on the NAS
+This repo implement the base image base for all the projects
