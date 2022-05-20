@@ -1,0 +1,8 @@
+buildContainer:
+  tool:
+    docker:
+      file: Docker/Dockerfile
+      imageTag: 3.10.4
+
+publishArtifact:
+  release: true
