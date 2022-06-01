@@ -1,3 +1,0 @@
-FROM 3.10.4-slim-buster
-#RUN apt-get remove openssl -y
-

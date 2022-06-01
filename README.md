@@ -1,12 +1,6 @@
 # BASE-IMAGE_AI_SOLUTIONS
 
-This repo implement the base image base for all the projects
+This repository implement the base image base for all AI Solutions projects, it is based in python:3.10.4-slim-buster.
 
+The base image in nexus is named nexus3.nex.intranet.unicreditgroup.eu:9080/dai/base-image-ais-python:3.10.4.
 
-How was created the immage base?
-
-1. pull python:3.10.4-buster from docker hub
-2. remove openssl from this image since Prisma detected a vulnerability for this package
-3. build a new image to be push to docker hub
-    docker build -f Dockerfile.base -t gccaisolutionsucs/base-image-ais-python:3.10.4
-4. 
