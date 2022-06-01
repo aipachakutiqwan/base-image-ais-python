@@ -1,4 +1,5 @@
-FROM gccaisolutionsucs/base-image-ais-python:3.10.4
+#FROM gccaisolutionsucs/base-image-ais-python:3.10.4
+FROM python:3.10.4-slim-buster
 RUN apt-get update
 ARG USERNAME=ai-solutions
 RUN groupadd -r ${USERNAME} -g 103 && \
