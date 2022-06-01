@@ -1,6 +1,4 @@
-#FROM python:slim-buster
-#FROM nexus3.nex.intranet.unicreditgroup.eu:9080/jxp/agent/python:3.8
-FROM python:slim-bullseye
+FROM python:3.10.4-buster
 RUN apt-get update
 ARG USERNAME=ai-solutions
 RUN groupadd -r ${USERNAME} -g 103 && \
