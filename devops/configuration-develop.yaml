@@ -2,7 +2,7 @@ buildContainer:
   tool:
     docker:
       file: Docker/Dockerfile
-      imageTag: 3.10-slim
+      imageTag: 3.10-slim-clean-v01
 
 publishArtifact:
   release: true
