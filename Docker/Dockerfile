@@ -6,4 +6,4 @@ RUN groupadd -r ${USERNAME} -g 103 && \
 
 USER ${USERNAME}
 
-RUN mkdir -r /home/${USERNAME}/agent
+RUN mkdir -p /home/${USERNAME}/agent
